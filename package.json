@@ -1,0 +1,28 @@
+{
+  "name": "abstract-sim-anneal",
+  "version": "0.1.0",
+  "description": "Abstract Simulated Annealing",
+  "main": "dist/solver.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "tsx --test",
+    "demo": "tsx ./sample/*.ts"
+  },
+  "author": "andy@fenomas.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.7.6",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all",
+    "printWidth": 100,
+    "semi": false
+  },
+  "packageManager": "pnpm@9.5.0+sha1.8c155dc114e1689d18937974f6571e0ceee66f1d"
+}

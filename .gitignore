@@ -1,0 +1,10 @@
+
+# git ignore
+
+node_modules*
+npm-debug.log
+
+.~lock*
+*-error.log
+
+
